@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CurrencyExchangeApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exchange_rate">Курсы валют</string>
+    <string name="rate_byn">Курсы BYN</string>
+    <string name="basket_currency">Корзина валют</string>
+    <string name="graph">График</string>
 </resources>
