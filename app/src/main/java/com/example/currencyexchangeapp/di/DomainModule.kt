@@ -13,7 +13,7 @@ class DomainModule {
     @Provides
     fun provideCurrencyExchangeInteractor(
         currencyExchangeRepository: CurrencyExchangeRepository
-    ):CurrencyExchangeInteractor{
+    ): CurrencyExchangeInteractor {
         return CurrencyExchangeInteractor(currencyExchangeRepository)
     }
 }
