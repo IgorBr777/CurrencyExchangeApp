@@ -7,7 +7,7 @@
     tools:context=".presentation.CurrencyExchangeFragment">
 
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/textViewExchangeRates"
         android:layout_width="0dp"
         android:layout_height="40dp"
@@ -22,8 +22,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnRateBYN"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRates"
         android:layout_width="0dp"
         android:layout_height="70dp"
         android:layout_marginStart="20dp"
@@ -38,7 +38,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewExchangeRates" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnBasketCur"
         android:layout_width="0dp"
         android:layout_height="70dp"
@@ -51,9 +51,9 @@
         android:textSize="44sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRateBYN" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRates" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnGraph"
         android:layout_width="0dp"
         android:layout_height="70dp"
